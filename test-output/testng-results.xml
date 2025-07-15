@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-26T21:02:17 CEST" name="Suite" finished-at="2025-06-26T21:02:17 CEST" duration-ms="55">
+    <groups>
+    </groups>
+    <test started-at="2025-06-26T21:02:17 CEST" name="Test" finished-at="2025-06-26T21:02:17 CEST" duration-ms="55">
+      <class name="day42.pack.C1">
+        <test-method is-config="true" signature="bt()[pri:0, instance:day42.pack.C1@75d3a5e0]" started-at="2025-06-26T21:02:17 CEST" name="bt" finished-at="2025-06-26T21:02:17 CEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bt -->
+        <test-method signature="abc()[pri:0, instance:day42.pack.C1@75d3a5e0]" started-at="2025-06-26T21:02:17 CEST" name="abc" finished-at="2025-06-26T21:02:17 CEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abc -->
+      </class> <!-- day42.pack.C1 -->
+      <class name="day42.pack.C3">
+        <test-method is-config="true" signature="bs()[pri:0, instance:day42.pack.C3@7ef82753]" started-at="2025-06-26T21:02:17 CEST" name="bs" finished-at="2025-06-26T21:02:17 CEST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bs -->
+        <test-method signature="pqr()[pri:0, instance:day42.pack.C3@7ef82753]" started-at="2025-06-26T21:02:17 CEST" name="pqr" finished-at="2025-06-26T21:02:17 CEST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pqr -->
+        <test-method is-config="true" signature="as()[pri:0, instance:day42.pack.C3@7ef82753]" started-at="2025-06-26T21:02:17 CEST" name="as" finished-at="2025-06-26T21:02:17 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- as -->
+      </class> <!-- day42.pack.C3 -->
+      <class name="day42.pack.C2">
+        <test-method signature="xyz()[pri:0, instance:day42.pack.C2@2034b64c]" started-at="2025-06-26T21:02:17 CEST" name="xyz" finished-at="2025-06-26T21:02:17 CEST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xyz -->
+        <test-method is-config="true" signature="at()[pri:0, instance:day42.pack.C2@2034b64c]" started-at="2025-06-26T21:02:17 CEST" name="at" finished-at="2025-06-26T21:02:17 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- at -->
+      </class> <!-- day42.pack.C2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
