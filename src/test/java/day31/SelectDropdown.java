@@ -35,6 +35,11 @@ public class SelectDropdown {
 		
 		for(int i=0;i<options.size();i++)
 		{
+			/*String s = options.get(i).getText();
+			if (s.equals("France"))
+			{
+				options.get(i).click();
+			}*/
 			System.out.println(options.get(i).getText());
 		}
 		

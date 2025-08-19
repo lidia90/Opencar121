@@ -15,8 +15,8 @@ public class AssignmentPagination2 {
 		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers");
 		driver.manage().window().maximize();
 		
-		driver.findElement(By.cssSelector("\\input[name='username']")).sendKeys("Admin");
-		driver.findElement(By.xpath("//input[@placeholder='password']")).sendKeys("admin123");
+		driver.findElement(By.xpath("//input[@placeholder='Username']")).sendKeys("Admin");
+		driver.findElement(By.xpath("//input[@placeholder='Password']")).sendKeys("admin123");
 		driver.findElement(By.xpath("//button[normalize-space()='Login']")).click();
 		
 		driver.findElement(By.xpath("//a[contains(@href,'viewAdminModule')]")).click();
@@ -29,12 +29,12 @@ public class AssignmentPagination2 {
 		{
 			String username=driver.findElement(By.xpath("//div[@class='oxd-table-body']//div[@class='oxd-table-card']["+r+"]//div//div[2]/div")).getText();
 			
-			System.out.println(username);
+			System.out.println(username); //
 			
 		}
 		//String username = driver.findElement(By.xpath("//div[@role='table']//div[@class='header'][normalize-space()='Username']")).getText();
 		//System.out.println(username);
 	
-	}
+	}//
 
 }

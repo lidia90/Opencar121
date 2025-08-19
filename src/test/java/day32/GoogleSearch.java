@@ -10,14 +10,14 @@ import org.openqa.selenium.edge.EdgeDriver;
 
 public class GoogleSearch {
 
-	public static void main(String[] args) {
-		WebDriver driver = new EdgeDriver();
+	public static void main(String[] args) throws InterruptedException {
+		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get("http://google.com");
 		driver.manage().window().maximize();
-		Alert popups = driver.switchTo().alert();
-		popups.accept();
-		driver.findElement(By.xpath("//textarea[@name='q']")).sendKeys("selenium");
+		Thread.sleep(5);
+		driver.findElement(By.xpath("//button/div[@class='Alle akzeptieren']")).click();
+		//driver.findElement(By.xpath("//textarea[@name='q']")).sendKeys("selenium");
 	}
 
 }

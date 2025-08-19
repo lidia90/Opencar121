@@ -15,6 +15,7 @@ public class DatePickerDemo {
 		driver.get("https://jqueryui.com/datepicker/");
 		driver.manage().window().maximize();
 		
+		//driver.switchTo().frame(0);
 		driver.switchTo().frame(0);
 		
 		//Method 1

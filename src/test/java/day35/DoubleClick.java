@@ -40,6 +40,7 @@ public class DoubleClick {
 		
 		String text=box2.getAttribute("value");
 		
+		
 		System.out.println("captured value is:"+ text);
 		
 		if(text.equals("WELCOME"))

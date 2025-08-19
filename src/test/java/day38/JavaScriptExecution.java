@@ -13,9 +13,10 @@ public class JavaScriptExecution {
 		driver.get("https://testautomationpractice.blogspot.com/");
 		driver.manage().window().maximize();
 		
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		
 		WebElement inputbox = driver.findElement(By.xpath("//input[@id='name']"));
 		
-		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("arguments[0].setAttribute('value','John')",inputbox);
 		
 		WebElement radiobtn = driver.findElement(By.xpath("//input[@id='male']"));
